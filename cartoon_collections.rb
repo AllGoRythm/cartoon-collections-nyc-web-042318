@@ -3,7 +3,7 @@ def roll_call_dwarves(list)# code an argument here
   new_list = []
 
   list.each.with_index(1) do |dwarf, index|
-    puts #{index}
+    puts "#{index}. #{dwarf}"
   end
 end
 
