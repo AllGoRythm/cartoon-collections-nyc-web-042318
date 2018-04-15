@@ -2,7 +2,7 @@ def roll_call_dwarves(list)# code an argument here
   # Your code here
   new_list = []
 
-  list.each.with_index(1) do |dwarf, index|
+  list.each_with_index(1) do |dwarf, index|
     puts "#{index}. #{dwarf}"
   end
 end
@@ -11,7 +11,7 @@ def summon_captain_planet# code an argument here
   # Your code here
   new_array = []
 
-  
+
 end
 
 def long_planeteer_calls# code an argument here
