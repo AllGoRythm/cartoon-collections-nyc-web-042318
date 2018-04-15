@@ -26,4 +26,5 @@ def find_the_cheese(types)
 
   types.each do |specific|
     cheese_types.include?(specific)
+  end
 end
